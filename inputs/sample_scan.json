@@ -1,0 +1,33 @@
+{
+	"target": "http://testphp.vulnweb.com",
+	"findings": [
+		{
+			"header": "Content-Security-Policy",
+			"type": "Cross-Site Scripting (XSS)",
+			"endpoint": "http://testphp.vulnweb.com",
+			"severity": "LOW",
+			"confidence": "HIGH"
+		},
+		{
+			"header": "X-Frame-Options",
+			"type": "Clickjacking",
+			"endpoint": "http://testphp.vulnweb.com",
+			"severity": "LOW",
+			"confidence": "HIGH"
+		},
+		{
+			"header": "X-Content-Type-Options",
+			"type": "MIME Sniffing",
+			"endpoint": "http://testphp.vulnweb.com",
+			"severity": "LOW",
+			"confidence": "HIGH"
+		},
+		{
+			"header": "Strict-Transport-Security",
+			"type": "Insecure Connection (HSTS)",
+			"endpoint": "http://testphp.vulnweb.com",
+			"severity": "LOW",
+			"confidence": "HIGH"
+		}
+	]
+}
